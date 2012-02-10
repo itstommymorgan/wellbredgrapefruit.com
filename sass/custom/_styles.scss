@@ -1,2 +1,27 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+header {
+  hgroup {
+    margin-left: 100px;
+
+    h1 {
+      font-family: "Abril Fatface", "Georgia";
+    }
+
+    h2 {
+      margin-left: 20px;
+    }
+  }
+}
+
+.floatL {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
