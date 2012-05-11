@@ -1,0 +1,63 @@
+---
+layout: post
+title: "OS X Apps, Environment Variables, and You"
+date: 2012-05-11 10:06
+comments: true
+categories: 
+---
+
+There are a lot of things I _really_ don't like about OS X. This isn't a secret.
+At the top of my list right now is the weird pseudo-shell OS X uses when it
+launches native applications. Don't know what that means? I don't either,
+really. I still haven't figured it out. Here's what happened, though, and maybe
+someone will find it useful.
+
+I use ZSH for my default shell. I have a lot of customizations to it, and some
+very important shell functions that get instantiated (especially RVM, which I
+use to manage the various versions of Ruby I have installed for different
+projects). Normally, my $PATH variable looks like this:
+
+```
+/Users/duwanis/.rvm/gems/ruby-1.9.3-p0/bin:/Users/duwanis/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/duwanis/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/duwanis/.rvm/bin:/Users/duwanis/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+```
+
+I wanted to poke around with [Sublime Text 2][st2] (I'm a vim guy at heart, but I like
+to play around with alternatives to expose myself to new ideas). However, I
+noticed that most of the plugins that interacted with a shell process were
+failing (I couldn't run ruby tests, generate ctags... a whole host of issues).
+With a bit of hackery I was able to determine that my $PATH variable from inside
+ST2 looked like this:
+
+```
+/usr/bin:/bin:/usr/sbin:/sbin
+```
+
+...Well, _that_'s not right. As far as I've been able to determine, OS X starts
+up applications with a very basic shell environment, regardless of your user
+settings or shell profiles.
+
+After lots of futile attempts at fixing the problem by trying to figure out
+where I could configure that basic shell environment, I finally found a
+workaround in a [StackOverflow question][soverflow]. By creating a shell script that
+wraps the default application executable like so:
+
+```
+#!/bin/sh                                                                       
+                                                                                
+source ~/.profile                                                               
+
+logger "`dirname \"$0\"`/Sublime Text 2"                                        
+
+exec "`dirname \"$0\"`/Sublime Text 2" $@
+```
+
+...and updating the application's Info.plist file as described in the first
+answer to the SO question I linked above, ST2 now always starts up with the
+appropriate environment configuration and child processes have all the
+information they need in order to execute correctly.
+
+Why this doesn't happen by default, I'll never know.
+
+
+[st2]: http://www.sublimetext.com/2 "Sublime Text 2"
+[soverflow]: http://stackoverflow.com/questions/829749/launch-mac-eclipse-with-environment-variables-set "Launch Mac Eclipse With Environment Variables Set"
