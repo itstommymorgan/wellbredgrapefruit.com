@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Pow, ZSH, and rbenv"
+date: 2012-09-25 23:12
+comments: true
+categories: 
+---
+
+I just spent the better part of an hour trying to figure this out, so I thought
+I'd share.
+
+[Pow][pow], ZSH, and [rbenv][rbenv] are all great tools in their own right, but
+they really don't want to play well together. Despite all my attempts to the
+contrary, pow refused to recognize my rbenv setup and tried to load up my Rails
+application using the system (1.8) version of ruby.
+
+[This issue][pow issue] in the Pow repository kind of illustrates how weird the issue is -
+the history is littered with a bunch of different suggested fixes (and even
+an allegation that Pow 0.4.0, which is the current version as of the time of
+this blog post, will do away with the issue altogether... which it doesn't
+appear to have done). After trying several different alternatives, this is the
+one that finally worked for me:
+
+1. Create a file named `.powconfig` in your home directory
+2. Put the following in that file:
+   ```
+   export PATH=`brew --prefix rbenv`/shims:`brew --prefix rbenv`/bin:$PATH
+   ```
+3. Restart pow by running `touch ~/.pow/restart.txt`.
+
+That immediately cleared up my problems and ended a rather frustrating search
+for answers.
+
+[pow]: http://pow.cx "Pow"
+[rbenv]: http://github.com/sstephenson/rbenv "rbenv"
+[pow issue]: https://github.com/37signals/pow/issues/202 "Issue #202 on 37signals/pow"
