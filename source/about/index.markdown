@@ -8,17 +8,14 @@ footer: true
 ---
 ### About Me
 <img alt="Yeah, that's me." src="/images/tommy.jpg" class="floatL" style="margin-right:10px;"/>
-I'm Tommy Morgan, and I'm currently a developer at [Treehouse][treehouse]. I graduated from
+I'm Tommy Morgan, and I lead the development team at [Treehouse][treehouse]. I graduated from
 [Furman University][furman] with a degree in Computer Science back in '06, and I've been
 doing software development ever since. [Ruby][ruby] is my current passion, but I've
 spent extensive time with several other languages and am always interested in
 dabbling with something new.
 
-I use this blog to post my thoughts on software development. For everything else
-I've got a [tumblr][duwaniscom].
-
-_Legal-ish notice:_ this blog, and everything on it, is representative solely of
-my thoughts and opinions, and not those of my present or past employers.
+I use this blog to post my thoughts on software development, team management,
+and anything relevant to the two. For everything else I've got a [tumblr][duwaniscom].
 
 <br clear="both"/>
 
