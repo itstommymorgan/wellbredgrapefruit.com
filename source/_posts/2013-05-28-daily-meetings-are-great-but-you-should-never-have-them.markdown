@@ -79,3 +79,12 @@ quickly. But if you're moving that quickly, do you really have time to have
 unnecessary meetings every day? Maybe give the email method a shot and see if
 it works for your team. If it doesn't, or if you think there are some benefits
 to having a daily face-to-face update, I'd love to hear about it.
+
+__Update__: I've gotten a few responses along the lines of "but face-to-face
+communication is important," and I agree with that whole-heartedly. At
+Treehouse we have a weekly developer meeting were we discuss broader strategy
+and company updates, and we use Google Hangouts for pretty much any discussion
+of substance. It's a rare day that anyone on my team doesn't get face-to-face
+interaction with _me_, much less other members of the team. So yes, it is
+valuable, and should be encouraged... but interrupting everybody every day at
+9:30 to force it to happen doesn't seem like a good management move to me.
