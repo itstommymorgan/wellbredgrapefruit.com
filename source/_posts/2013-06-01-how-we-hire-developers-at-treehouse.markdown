@@ -6,7 +6,8 @@ comments: true
 categories:
 ---
 
-I'm pretty happy with the hiring process at Treehouse. Over the course of my
+I'm pretty happy with the hiring process at
+[Treehouse](http://teamtreehouse.com). Over the course of my
 career, I've been through (and conducted) interviews that ranged from
 borderline inane ("Why are manhole covers round?") to pretty intense ("Here are
 some coding problems. You have 10 hours. Begin."). I've filtered through resumes
