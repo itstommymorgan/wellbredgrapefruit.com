@@ -8,14 +8,14 @@ footer: true
 ---
 ### About Me
 <img alt="Yeah, that's me." src="/images/tommy.jpg" class="floatL" style="margin-right:10px;"/>
-I'm Tommy Morgan, and I lead the development team at [Treehouse][treehouse]. I graduated from
+I'm Tommy Morgan, and I'm a developer at [Treehouse][treehouse]. I graduated from
 [Furman University][furman] with a degree in Computer Science back in '06, and I've been
 doing software development ever since. [Ruby][ruby] is my current passion, but I've
 spent extensive time with several other languages and am always interested in
 dabbling with something new.
 
-I use this blog to post my thoughts on software development, team management,
-and anything relevant to the two. For everything else I've got a [tumblr][duwaniscom].
+I use this blog to post my thoughts on software development, project management,
+and anything relevant to the two.
 
 <br clear="both"/>
 
@@ -27,5 +27,4 @@ He classes up the joint, so I let him stick around.
 [treehouse]: http://www.teamtreehouse.com "Team Treehouse"
 [furman]: http://www.furman.edu "Furman University"
 [ruby]: http://www.ruby-lang.org "The Ruby Language"
-[duwaniscom]: http://www.duwanis.com "My Tumblr"
 [gfquote]: http://thinkexist.com/quotation/life-is_like_a_grapefruit-it-s_orange_and_squishy/203626.html "Life is like a grapefruit."
