@@ -16,7 +16,7 @@ the inherent tradeoffs in working on complex projects:
 * You can be fast and cheap, but it won't be high quality.
 * You can be cheap and high quality, but it won't be fast.
 * You can be fast and high quality, but it won't be cheap.
-
+<!-- more -->
 This is employed by software developers/project managers as a cautionary tale to clients and upper management who may be seeking to impose unrealistic constraints on a project:
 
 * You can impose deadlines and budget restrictions, but then we can't make a quality product.

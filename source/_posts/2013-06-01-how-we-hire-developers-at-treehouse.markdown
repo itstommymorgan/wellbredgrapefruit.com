@@ -18,7 +18,7 @@ diesel engines work."
 Hiring developers at Treehouse is pretty painless, though - in part because we
 we've been careful to build a solid team, but also because we take a lot of care
 to cut to the BS out of the interview process.
-
+<!-- more -->
 ## Step 1: The Questions
 When someone is interested in applying to become a part of the Treehouse Dev
 Team, we ask them to answer four questions for us. These questions serve as our

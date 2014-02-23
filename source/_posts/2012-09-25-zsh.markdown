@@ -13,7 +13,7 @@ I'd share.
 they really don't want to play well together. Despite all my attempts to the
 contrary, pow refused to recognize my rbenv setup and tried to load up my Rails
 application using the system (1.8) version of ruby.
-
+<!-- more -->
 [This issue][pow issue] in the Pow repository kind of illustrates how weird the issue is -
 the history is littered with a bunch of different suggested fixes (and even
 an allegation that Pow 0.4.0, which is the current version as of the time of

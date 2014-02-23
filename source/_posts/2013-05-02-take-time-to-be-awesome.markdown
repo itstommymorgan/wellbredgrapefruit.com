@@ -17,7 +17,7 @@ There's good reason for this difference - at heart we're a content production
 company, so that has to be our focus. The development team at Treehouse is
 really there to support that goal. We don't get to set the priorities for what
 gets worked on and what doesn't, but we're all ok with that.
-
+<!-- more -->
 We had lately fallen into a trap though, and as the team leader I'll admit that
 it was mostly my fault. With 40+ internal 'clients,' the list of "really
 important things to do" is kind of overwhelming. There's a huge temptation there

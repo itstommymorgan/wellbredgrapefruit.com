@@ -12,7 +12,7 @@ you were more like me, you'd be more successful. Maybe if you were more like me,
 I'd consider you to be a *real* programmer. Maybe if you were more like me, I'd
 want to work with you, and I wouldn't shudder in the very depths of my soul
 every time I looked at your code."
-
+<!-- more -->
 And I know. I do it too, sometimes. But I want to make up for it. Here's a brief
 list of some things I know I'm doing wrong:
 

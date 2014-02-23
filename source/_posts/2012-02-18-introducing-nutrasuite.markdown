@@ -8,7 +8,7 @@ categories:
 Just a quick note about a little minitest-enhancing library that [Alan Johnson][commondream] and I hacked up today. [Nutrasuite][nutrasuite] is a dirt-simple gem
 that adds contexts to minitest for you. It might do more in the future, it
 might not. But for now you can get organization in your tests as easy as:
-
+<!-- more -->
 ``` ruby
 require 'nutrasuite'
 class SomeTest < MiniTest::Unit::TestCase

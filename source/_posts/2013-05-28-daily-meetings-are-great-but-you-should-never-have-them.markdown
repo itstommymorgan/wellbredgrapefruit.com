@@ -24,7 +24,7 @@ Sounds great, right? Everybody should be doing this. Why do I say that you
 should never have them, then?
 
 __Because it's the _information_ that's great: the meetings are time-sinks.__
-
+<!-- more -->
 All meetings are terrible. I don't think this is news to anybody - meetings are
 a necessary evil. They're often meandering, only sometimes productive, and they
 always interrupt what each and every one of the meeting participants were

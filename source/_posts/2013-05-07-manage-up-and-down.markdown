@@ -16,7 +16,7 @@ responsibilities, it's important for me to have a good management philosophy in
 much the same way as it's important to have a good coding philosophy: thinking
 through a lot of this stuff up front will help me to be more consistent and
 decisive when I'm faced with an issue.
-
+<!-- more -->
 One sort of mantra I've developed - and the other developers at Treehouse can
 attest to this, as they're probably already tired of hearing it - is "Manage up,
 and down, but not sideways." It's a simple way to remind myself of where my

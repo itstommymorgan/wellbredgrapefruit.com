@@ -11,7 +11,7 @@ This weekend I took a few hours and read through [Brian P. Hogan][bphogan]'s
 
 While I did get a lot out of the book, I'm not going to talk about tmux itself.
 Instead, I'd like to talk a bit about toolsmithing.
-
+<!-- more -->
 It's generally understood that as software developers, we don't actually spend a
 whole lot of time _writing_ code. A significant portion of the time we spend in
 our code editing environments is actually spent reading and understanding code -

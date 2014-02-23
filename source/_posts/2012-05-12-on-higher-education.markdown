@@ -25,7 +25,7 @@ tens of dollars a month and learning what you want, when you want.
 It seems like a no-brainer, right? The "higher education" system is a dying
 leviathan that refuses to acknowledge its own mortality; much like newspapers,
 phone books, and the once-burgeoning pager industry.
-
+<!-- more -->
 I think there is a nugget of truth to all of this, but it's not new and it's
 definitely not a product of the internet age. That nugget is:
 

@@ -13,7 +13,7 @@ Expiring Sets behave exactly like normal Sets in Redis, with one exception: each
 item in the set has an expiration time, and once that expiration time is past
 the item will be removed from the set. This is particularly useful for keeping
 track of recent items.
-
+<!-- more -->
 Suppose, to create a contrived example, you want to keep statistics on the
 number and type of emails you've sent from your site in the last 24 hours.
 Suppose that this data has a string representation. Every time you send an email

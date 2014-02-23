@@ -9,7 +9,7 @@ categories:
 Jason Gorman wrote a post titled [Let's Not Call It "Computer Science" If We Really Mean "Computer Programming"][jg]. Good read.
 
 A few notes:
-
+<!-- more -->
 > The feedback I get from CS graduates who've been working in software (and from
 > their employers) is overwhelmingly that their degree didn't prepare them at
 > all for software development. Time spent learning the UML meta-meta-model and

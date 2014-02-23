@@ -11,7 +11,7 @@ At the top of my list right now is the weird pseudo-shell OS X uses when it
 launches native applications. Don't know what that means? I don't either,
 really. I still haven't figured it out. Here's what happened, though, and maybe
 someone will find it useful.
-
+<!-- more -->
 I use ZSH for my default shell. I have a lot of customizations to it, and some
 very important shell functions that get instantiated (especially RVM, which I
 use to manage the various versions of Ruby I have installed for different
